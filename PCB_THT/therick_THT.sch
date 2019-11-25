@@ -1823,7 +1823,7 @@ U 1 1 5DAECC8A
 P 1750 5200
 F 0 "J1" H 1857 6617 50  0000 C CNN
 F 1 "TYPE-C-31-M12_13" H 1857 6526 50  0000 C CNN
-F 2 "acheron_Connectors:TYPE-C-31-M-12" V 1250 5250 50  0001 C CNN
+F 2 "random-keyboard-parts:TYPE-C-31-M-12" V 1250 5250 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1950 5250 50  0001 C CNN
 	1    1750 5200
 	1    0    0    -1  

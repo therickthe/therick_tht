@@ -1910,39 +1910,8 @@ F 3 "~" H 8000 4850 50  0001 C CNN
 	1    8000 4850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C CSH1
-U 1 1 5DE0933F
-P 1350 6900
-F 0 "CSH1" V 1400 6700 35  0000 L CNN
-F 1 "4.7n" H 1200 6800 33  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1388 6750 50  0001 C CNN
-F 3 "~" H 1350 6900 50  0001 C CNN
-	1    1350 6900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 6650 1350 6750
-Wire Wire Line
-	1350 6750 1100 6750
-Connection ~ 1350 6750
 NoConn ~ 2350 6350
 NoConn ~ 2350 6250
-$Comp
-L Device:R RSH1
-U 1 1 5DE07C1C
-P 1100 6900
-F 0 "RSH1" V 1000 6850 35  0000 L CNN
-F 1 "1M" V 1100 6850 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1030 6900 50  0001 C CNN
-F 3 "~" H 1100 6900 50  0001 C CNN
-	1    1100 6900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 7050 1350 7100
-Wire Wire Line
-	1100 7100 1100 7050
 Wire Wire Line
 	5700 5200 6000 5200
 $Comp
@@ -1974,22 +1943,6 @@ F 3 "" H 5700 5100 50  0001 C CNN
 	1    5700 5100
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1100 7100 1200 7100
-$Comp
-L power:GND #PWR0103
-U 1 1 5E7FF967
-P 1200 7100
-F 0 "#PWR0103" H 1200 6850 50  0001 C CNN
-F 1 "GND" H 1205 6927 50  0000 C CNN
-F 2 "" H 1200 7100 50  0001 C CNN
-F 3 "" H 1200 7100 50  0001 C CNN
-	1    1200 7100
-	1    0    0    -1  
-$EndComp
-Connection ~ 1200 7100
-Wire Wire Line
-	1200 7100 1350 7100
 $Comp
 L power:GND #PWR0104
 U 1 1 5E800345
@@ -2014,18 +1967,8 @@ F 3 "" H 1750 6700 50  0001 C CNN
 	1    1750 6700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1350 6650 1450 6650
-Wire Notes Line
-	1550 6100 1550 7500
-Wire Notes Line
-	1550 7500 950  7500
-Wire Notes Line
-	950  7500 950  6100
 Wire Notes Line
 	950  6100 1550 6100
-Text Notes 1000 7450 0    50   ~ 0
-Shield net
 $Comp
 L lets_split-cache:HOLE U2
 U 1 1 5DE56E92
@@ -2074,4 +2017,9 @@ Text GLabel 2800 5250 0    50   Input ~ 0
 VCC
 Wire Wire Line
 	2600 5550 2800 5550
+Wire Wire Line
+	1450 6650 1450 6700
+Wire Wire Line
+	1450 6700 1650 6700
+Connection ~ 1650 6700
 $EndSCHEMATC
