@@ -1,4 +1,4 @@
-16999683252705484
+17003350649845484
 acheron_Components
 ACM2012-2P
 
@@ -70,7 +70,14 @@ SOD-123
 2
 2
 acheron_Components
-D_SOD-123_even
+D_SOD-123_Bidirectional
+SOD-123
+SOD-123
+0
+2
+2
+acheron_Components
+D_SOD-123_modified
 SOD-123
 SOD-123
 0
@@ -196,7 +203,7 @@ Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W le
 2
 2
 acheron_Components
-R_SMD_1026
+R_SMD_1206
 Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 resistor handsolder
 0
@@ -274,13 +281,6 @@ PinHeader_1x4_P2.54mm_Angled
 4
 acheron_Connectors
 PinHeader_1x4_P2.54mm_Vertical
-Through hole straight pin header, 1x14, 2.54mm pitch, single row
-Through hole pin header THT 1x14 2.54mm single row
-0
-4
-4
-acheron_Connectors
-PinHeader_1x4_P2.54mm_Vertical_B_mask
 Through hole straight pin header, 1x14, 2.54mm pitch, single row
 Through hole pin header THT 1x14 2.54mm single row
 0
@@ -368,7 +368,7 @@ TYPE-C-31-M-12
 
 
 0
-16
+17
 13
 acheron_Connectors
 USB_MiniB_Hirose_UX60-MB-5S8
@@ -67284,6 +67284,13 @@ Molex-0548190589
 9
 6
 random-keyboard-parts
+MX100
+
+
+0
+2
+2
+random-keyboard-parts
 MX100_slot
 
 
@@ -67381,6 +67388,13 @@ SOT143B
 0
 4
 4
+random-keyboard-parts
+TYPE-C-31-M-12
+
+
+0
+17
+13
 random-keyboard-parts
 USB-A-Generic
 
