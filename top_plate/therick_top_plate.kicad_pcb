@@ -2,10 +2,10 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
+    (drawings 9)
     (tracks 0)
     (zones 0)
-    (modules 54)
+    (modules 56)
     (nets 1)
   )
 
@@ -60,7 +60,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements FFFFEF7F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -99,6 +99,30 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+  )
+
+  (module random-keyboard-parts:plate_hole_4mm_tht locked (layer F.Cu) (tedit 5DBCB00B) (tstamp 5EC497FC)
+    (at 255.5367 94.107)
+    (path /5ED733F7)
+    (fp_text reference H8 (at 0.381 1.4097) (layer Dwgs.User)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole (at 0 -0.5) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0.0508 -2.032) (size 4.5 4.5) (drill 4) (layers *.Cu *.Mask))
+  )
+
+  (module random-keyboard-parts:plate_hole_4mm_tht locked (layer F.Cu) (tedit 5DBCB00B) (tstamp 5EC497F7)
+    (at 65.0367 56.007)
+    (path /5ED733F1)
+    (fp_text reference H7 (at 0.381 1.4097) (layer Dwgs.User)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole (at 0 -0.5) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0.0508 -2.032) (size 4.5 4.5) (drill 4) (layers *.Cu *.Mask))
   )
 
   (module random-keyboard-parts:MX100_slot (layer F.Cu) (tedit 5DBC8E0B) (tstamp 5DBCCB7B)
@@ -3126,7 +3150,7 @@
   )
 
   (module random-keyboard-parts:plate_hole_4mm_tht locked (layer F.Cu) (tedit 5DBCB00B) (tstamp 5DBD0114)
-    (at 65.0748 75.0189)
+    (at 65.0367 94.107)
     (path /5DAFBA19)
     (fp_text reference H1 (at 0 1.1811) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3138,7 +3162,7 @@
   )
 
   (module random-keyboard-parts:plate_hole_4mm_tht locked (layer F.Cu) (tedit 5DBCB00B) (tstamp 5DBD0118)
-    (at 103.1748 55.9689)
+    (at 122.1867 56.007)
     (path /5DAFB0AC)
     (fp_text reference H2 (at 0 1.1811) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3150,7 +3174,7 @@
   )
 
   (module random-keyboard-parts:plate_hole_4mm_tht locked (layer F.Cu) (tedit 5DBCB00B) (tstamp 5DBD011C)
-    (at 103.1748 94.0689)
+    (at 122.1867 94.107)
     (path /5DAFC41A)
     (fp_text reference H3 (at 0 1.1811) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3162,7 +3186,7 @@
   )
 
   (module random-keyboard-parts:plate_hole_4mm_tht locked (layer F.Cu) (tedit 5DBCB00B) (tstamp 5DBD0120)
-    (at 217.4875 55.9689)
+    (at 198.3867 56.007)
     (path /5DAFCFC0)
     (fp_text reference H4 (at 0 1.1811) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3174,7 +3198,7 @@
   )
 
   (module random-keyboard-parts:plate_hole_4mm_tht locked (layer F.Cu) (tedit 5DBCB00B) (tstamp 5DBD0124)
-    (at 217.4748 94.0689)
+    (at 198.3867 94.0689)
     (path /5DAFD908)
     (fp_text reference H5 (at 0 1.1811) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3186,7 +3210,7 @@
   )
 
   (module random-keyboard-parts:plate_hole_4mm_tht locked (layer F.Cu) (tedit 5DBCB00B) (tstamp 5DBD0128)
-    (at 255.5875 75.0189)
+    (at 255.5367 56.007)
     (path /5DAFE1B7)
     (fp_text reference H6 (at 0 1.1811) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3197,6 +3221,9 @@
     (pad 1 thru_hole circle (at 0.0508 -2.032) (size 4.5 4.5) (drill 4) (layers *.Cu *.Mask))
   )
 
+  (gr_text JLCJLCJLCJLC (at 84.1375 92.075) (layer F.SilkS)
+    (effects (font (size 1.25 1.25) (thickness 0.2)))
+  )
   (gr_line (start 48.41875 35.294875) (end 272.25625 35.294875) (layer Edge.Cuts) (width 0.05) (tstamp 5DBCA081))
   (gr_arc (start 272.25625 37.27925) (end 274.240625 37.27925) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DBC2891))
   (gr_arc (start 272.25625 108.77075) (end 272.25625 110.755125) (angle -90) (layer Edge.Cuts) (width 0.05) (tstamp 5DCF756B))

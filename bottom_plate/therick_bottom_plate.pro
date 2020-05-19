@@ -1,4 +1,4 @@
-update=Friday, November 01, 2019 at 04:23:17 PM
+update=Friday, November 01, 2019 at 05:04:46 PM
 version=1
 last_client=pcbnew
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=bottom_plate.net
+LastNetListRead=top_plate.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
